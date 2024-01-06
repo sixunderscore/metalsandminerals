@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "metalsandminerals:peridot"
+    }
+  },
+  "result": {
+    "item": "metalsandminerals:peridot_chestplate"
+  }
+}

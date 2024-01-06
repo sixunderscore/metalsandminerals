@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "metalsandminerals:tin_ingot"
+    }
+  },
+  "result": {
+    "item": "metalsandminerals:tin_block"
+  }
+}

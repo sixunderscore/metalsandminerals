@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "metalsandminerals:block/titanium_reinforced_glass_pane_top",
+    "pane": "metalsandminerals:block/titanium_reinforced_glass"
+  }
+}

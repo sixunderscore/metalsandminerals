@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "metalsandminerals:peridot_block"
+    }
+  ],
+  "result": {
+    "item": "metalsandminerals:peridot",
+    "count": 9
+  }
+}

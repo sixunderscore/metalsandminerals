@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "metalsandminerals:topaz"
+    }
+  },
+  "result": {
+    "item": "metalsandminerals:topaz_boots"
+  }
+}

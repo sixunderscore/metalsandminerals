@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "metalsandminerals:titanium_ingot"
+    }
+  },
+  "result": {
+    "item": "metalsandminerals:titanium_block"
+  }
+}

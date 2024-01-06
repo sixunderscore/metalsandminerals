@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "metalsandminerals:platinum_block",
+    "metalsandminerals:raw_platinum_block",
+    "metalsandminerals:platinum_ore",
+    "metalsandminerals:deepslate_platinum_ore",
+    "metalsandminerals:jade_block",
+    "metalsandminerals:jade_ore",
+    "metalsandminerals:deepslate_jade_ore",
+    "metalsandminerals:topaz_block",
+    "metalsandminerals:topaz_ore",
+    "metalsandminerals:deepslate_topaz_ore",
+    "metalsandminerals:peridot_block",
+    "metalsandminerals:peridot_ore",
+    "metalsandminerals:deepslate_peridot_ore"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "metalsandminerals:block/titanium_deposit_top",
+    "side": "metalsandminerals:block/titanium_deposit_side"
+  }
+}

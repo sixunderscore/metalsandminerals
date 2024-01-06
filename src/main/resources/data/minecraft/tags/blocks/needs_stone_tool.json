@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "metalsandminerals:ruby_block",
+    "metalsandminerals:ruby_ore",
+    "metalsandminerals:deepslate_ruby_ore",
+    "metalsandminerals:tin_block",
+    "metalsandminerals:raw_tin_block",
+    "metalsandminerals:tin_ore",
+    "metalsandminerals:deepslate_tin_ore"
+  ]
+}

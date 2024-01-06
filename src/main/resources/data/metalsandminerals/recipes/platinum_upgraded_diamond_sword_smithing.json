@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "metalsandminerals:platinum_rod"
+  },
+  "base": {
+    "item": "minecraft:diamond_sword"
+  },
+  "result": {
+    "item": "metalsandminerals:platinum_upgraded_diamond_sword"
+  },
+  "template": {
+    "item": "metalsandminerals:platinum_upgrade_smithing_template"
+  }
+}

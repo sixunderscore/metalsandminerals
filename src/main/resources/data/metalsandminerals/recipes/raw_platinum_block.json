@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "metalsandminerals:raw_platinum"
+    }
+  },
+  "result": {
+    "item": "metalsandminerals:raw_platinum_block"
+  }
+}

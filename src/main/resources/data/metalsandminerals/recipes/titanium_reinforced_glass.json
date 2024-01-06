@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " % ",
+    "%#%",
+    " % "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glass"
+    },
+    "%": {
+      "item": "metalsandminerals:titanium_plate"
+    }
+  },
+  "result": {
+    "item": "metalsandminerals:titanium_reinforced_glass"
+  }
+}
