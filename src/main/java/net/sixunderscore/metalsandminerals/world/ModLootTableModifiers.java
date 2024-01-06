@@ -67,8 +67,8 @@ public class ModLootTableModifiers {
                 modifyLootTable(chestId, 0.18f, ModItems.JADE, 1.0f, 1.0f);
                 modifyLootTable(chestId, 0.18f, ModItems.TOPAZ, 1.0f, 1.0f);
                 modifyLootTable(chestId, 0.18f, ModItems.PERIDOT, 1.0f, 1.0f);
-                modifyLootTable(chestId, 0.15f, ModItems.PLATINUM_UPGRADE_SMITHING_TEMPLATE, 1.0f, 1.0f);
-                modifyLootTable(chestId, 0.15f, ModItems.TITANIUM_UPGRADE_SMITHING_TEMPLATE, 1.0f, 1.0f);
+                modifyLootTable(chestId, 0.16f, ModItems.PLATINUM_UPGRADE_SMITHING_TEMPLATE, 1.0f, 1.0f);
+                modifyLootTable(chestId, 0.16f, ModItems.TITANIUM_UPGRADE_SMITHING_TEMPLATE, 1.0f, 1.0f);
             }
         }
     }
