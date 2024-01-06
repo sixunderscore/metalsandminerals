@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "metalsandminerals",
-	"version": "${version}",
+	"version": "0.9",
 	"name": "Metals and Minerals",
 	"description": "Adds a bunch of new metals and minerals to the game",
 	"authors": [
