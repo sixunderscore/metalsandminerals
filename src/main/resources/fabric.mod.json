@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/metals-and-minerals",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/sixunderscore/metalsandminerals"
 	},
 	"license": "GPL-3.0-only",
 	"icon": "assets/metalsandminerals/icon.png",
