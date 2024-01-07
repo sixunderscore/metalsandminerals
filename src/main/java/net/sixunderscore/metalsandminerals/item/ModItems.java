@@ -79,10 +79,10 @@ public class ModItems {
     public static final Item PERIDOT_CHESTPLATE = registerItem("peridot_chestplate", new ArmorItem(ModArmorMaterials.PERIDOT, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item PERIDOT_LEGGINGS = registerItem("peridot_leggings", new ArmorItem(ModArmorMaterials.PERIDOT, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item PERIDOT_BOOTS = registerItem("peridot_boots", new ArmorItem(ModArmorMaterials.PERIDOT, ArmorItem.Type.BOOTS, new FabricItemSettings()));
-    public static final Item PLATINUM_UPGRADED_NETHERITE_SWORD = registerItem("platinum_upgraded_netherite_sword", new SwordItem(ToolMaterials.NETHERITE, 3, -2.1f, new FabricItemSettings()));
-    public static final Item PLATINUM_UPGRADED_NETHERITE_AXE = registerItem("platinum_upgraded_netherite_axe", new AxeItem(ToolMaterials.NETHERITE, 5.0f, -2.7f, new FabricItemSettings()));
     public static final Item PLATINUM_UPGRADED_DIAMOND_SWORD = registerItem("platinum_upgraded_diamond_sword", new SwordItem(ToolMaterials.DIAMOND, 3, -2.1f, new FabricItemSettings()));
     public static final Item PLATINUM_UPGRADED_DIAMOND_AXE = registerItem("platinum_upgraded_diamond_axe", new AxeItem(ToolMaterials.DIAMOND, 5.0f, -2.7f, new FabricItemSettings()));
+    public static final Item PLATINUM_UPGRADED_NETHERITE_SWORD = registerItem("platinum_upgraded_netherite_sword", new SwordItem(ToolMaterials.NETHERITE, 3, -2.1f, new FabricItemSettings()));
+    public static final Item PLATINUM_UPGRADED_NETHERITE_AXE = registerItem("platinum_upgraded_netherite_axe", new AxeItem(ToolMaterials.NETHERITE, 5.0f, -2.7f, new FabricItemSettings()));
     public static final Item TITANIUM_REINFORCED_NETHERITE_HELMET = registerItem("titanium_reinforced_netherite_helmet", new ArmorItem(ModArmorMaterials.TITANIUM_REINFORCED_NETHERITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item TITANIUM_REINFORCED_NETHERITE_CHESTPLATE = registerItem("titanium_reinforced_netherite_chestplate", new ArmorItem(ModArmorMaterials.TITANIUM_REINFORCED_NETHERITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item TITANIUM_REINFORCED_NETHERITE_LEGGINGS = registerItem("titanium_reinforced_netherite_leggings", new ArmorItem(ModArmorMaterials.TITANIUM_REINFORCED_NETHERITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));

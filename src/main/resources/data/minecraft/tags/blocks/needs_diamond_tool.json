@@ -5,6 +5,8 @@
     "metalsandminerals:raw_titanium_block",
     "metalsandminerals:titanium_deposit",
     "metalsandminerals:titanium_reinforced_glass",
-    "metalsandminerals:titanium_reinforced_glass_pane"
+    "metalsandminerals:titanium_reinforced_glass_pane",
+    "metalsandminerals:titanium_door",
+    "metalsandminerals:titanium_trapdoor"
   ]
 }

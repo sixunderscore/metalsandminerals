@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "metalsandminerals:platinum_ingot"
+    }
+  },
+  "result": {
+    "item": "metalsandminerals:platinum_leggings"
+  }
+}

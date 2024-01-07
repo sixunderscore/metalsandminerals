@@ -36,6 +36,8 @@ public class ModBlocks {
     public static final Block TITANIUM_DEPOSIT = registerBlock("titanium_deposit", new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS).strength(15, 800) , UniformIntProvider.create(2, 5)));
     public static final Block TITANIUM_REINFORCED_GLASS = registerBlock("titanium_reinforced_glass", new GlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS).requiresTool().strength(12, 800)));
     public static final Block TITANIUM_REINFORCED_GLASS_PANE = registerBlock("titanium_reinforced_glass_pane", new PaneBlock(FabricBlockSettings.copyOf(Blocks.GLASS_PANE).requiresTool().strength(12, 800)));
+    public static final Block TITANIUM_DOOR = registerBlock("titanium_door", new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).strength(20, 900), BlockSetType.IRON));
+    public static final Block TITANIUM_TRAPDOOR = registerBlock("titanium_trapdoor", new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).strength(20, 900), BlockSetType.IRON));
     public static final Block PERIDOT_BLOCK = registerBlock("peridot_block", new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
     public static final Block PERIDOT_ORE = registerBlock("peridot_ore", new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(2, 5)));
     public static final Block DEEPSLATE_PERIDOT_ORE = registerBlock("deepslate_peridot_ore", new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(4f), UniformIntProvider.create(2, 5)));
@@ -46,11 +48,13 @@ public class ModBlocks {
     private static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registries.ITEM, new Identifier(MetalsAndMinerals.MOD_ID, name), new BlockItem(block, new FabricItemSettings()));
     }
+    public static void registerModBlocks() {
+        MetalsAndMinerals.LOGGER.info("Registering mod blocks for " + MetalsAndMinerals.MOD_ID);
+    }
     public static void renderTransparentBlocks() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TITANIUM_REINFORCED_GLASS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TITANIUM_REINFORCED_GLASS_PANE, RenderLayer.getTranslucent());
-    }
-    public static void registerModBlocks() {
-        MetalsAndMinerals.LOGGER.info("Registering mod blocks for " + MetalsAndMinerals.MOD_ID);
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TITANIUM_DOOR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TITANIUM_TRAPDOOR, RenderLayer.getCutout());
     }
 }

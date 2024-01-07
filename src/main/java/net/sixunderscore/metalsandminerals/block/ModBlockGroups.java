@@ -36,6 +36,8 @@ public class ModBlockGroups {
                         entries.add(ModBlocks.TITANIUM_DEPOSIT);
                         entries.add(ModBlocks.TITANIUM_REINFORCED_GLASS);
                         entries.add(ModBlocks.TITANIUM_REINFORCED_GLASS_PANE);
+                        entries.add(ModBlocks.TITANIUM_DOOR);
+                        entries.add(ModBlocks.TITANIUM_TRAPDOOR);
                         entries.add(ModBlocks.PERIDOT_BLOCK);
                         entries.add(ModBlocks.PERIDOT_ORE);
                         entries.add(ModBlocks.DEEPSLATE_PERIDOT_ORE);

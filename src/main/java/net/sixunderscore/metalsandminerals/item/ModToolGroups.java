@@ -43,10 +43,10 @@ public class ModToolGroups {
                         entries.add(ModItems.PERIDOT_PICKAXE);
                         entries.add(ModItems.PERIDOT_AXE);
                         entries.add(ModItems.PERIDOT_HOE);
-                        entries.add(ModItems.PLATINUM_UPGRADED_NETHERITE_SWORD);
-                        entries.add(ModItems.PLATINUM_UPGRADED_NETHERITE_AXE);
                         entries.add(ModItems.PLATINUM_UPGRADED_DIAMOND_SWORD);
                         entries.add(ModItems.PLATINUM_UPGRADED_DIAMOND_AXE);
+                        entries.add(ModItems.PLATINUM_UPGRADED_NETHERITE_SWORD);
+                        entries.add(ModItems.PLATINUM_UPGRADED_NETHERITE_AXE);
                     }).build());
     public static void  registerToolGroups() {
         MetalsAndMinerals.LOGGER.info("Registering tool groups for " + MetalsAndMinerals.MOD_ID);
