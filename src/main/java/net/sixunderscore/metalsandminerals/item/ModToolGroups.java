@@ -23,6 +23,11 @@ public class ModToolGroups {
                         entries.add(ModItems.JADE_PICKAXE);
                         entries.add(ModItems.JADE_AXE);
                         entries.add(ModItems.JADE_HOE);
+                        entries.add(ModItems.PLATINUM_SWORD);
+                        entries.add(ModItems.PLATINUM_SHOVEL);
+                        entries.add(ModItems.PLATINUM_PICKAXE);
+                        entries.add(ModItems.PLATINUM_AXE);
+                        entries.add(ModItems.PLATINUM_HOE);
                         entries.add(ModItems.TIN_SWORD);
                         entries.add(ModItems.TIN_SHOVEL);
                         entries.add(ModItems.TIN_PICKAXE);

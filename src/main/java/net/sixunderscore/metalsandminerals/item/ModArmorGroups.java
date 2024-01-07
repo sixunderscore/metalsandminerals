@@ -21,6 +21,10 @@ public class ModArmorGroups {
                         entries.add(ModItems.JADE_CHESTPLATE);
                         entries.add(ModItems.JADE_LEGGINGS);
                         entries.add(ModItems.JADE_BOOTS);
+                        entries.add(ModItems.PLATINUM_HELMET);
+                        entries.add(ModItems.PLATINUM_CHESTPLATE);
+                        entries.add(ModItems.PLATINUM_LEGGINGS);
+                        entries.add(ModItems.PLATINUM_BOOTS);
                         entries.add(ModItems.TIN_HELMET);
                         entries.add(ModItems.TIN_CHESTPLATE);
                         entries.add(ModItems.TIN_LEGGINGS);

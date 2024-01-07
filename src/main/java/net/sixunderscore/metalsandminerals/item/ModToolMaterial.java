@@ -9,6 +9,7 @@ import java.util.function.Supplier;
 public enum ModToolMaterial implements ToolMaterial {
     RUBY(MiningLevels.IRON, 500, 7.0f, 2.5f, 12, () -> Ingredient.ofItems(ModItems.RUBY)),
     JADE(MiningLevels.DIAMOND, 650, 8.0f, 3.0f, 14, () -> Ingredient.ofItems(ModItems.JADE)),
+    PLATINUM(MiningLevels.WOOD, 45, 13.0f, 0.0f, 22, () -> Ingredient.ofItems(ModItems.PLATINUM_INGOT)),
     TIN(MiningLevels.STONE, 180, 5.0f, 1.5f, 7, () -> Ingredient.ofItems(ModItems.TIN_INGOT)),
     TOPAZ(MiningLevels.IRON, 580, 7.5f, 2.7f, 13, () -> Ingredient.ofItems(ModItems.TOPAZ)),
     PERIDOT(MiningLevels.DIAMOND, 800, 8.0f, 3.0f, 15, () -> Ingredient.ofItems(ModItems.PERIDOT))

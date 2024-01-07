@@ -25,6 +25,15 @@ public class ModItems {
     public static final Item PLATINUM_APPLE = registerItem("platinum_apple", new Item(new FabricItemSettings().rarity(Rarity.RARE).food(ModFoodComponents.PLATINUM_APPLE)));
     public static final Item PLATINUM_ROD = registerItem("platinum_rod", new Item(new FabricItemSettings()));
     public static final Item PLATINUM_UPGRADE_SMITHING_TEMPLATE = registerItem("platinum_upgrade_smithing_template", ModSmithingTemplateItem.createPlatinumUpgrade());
+    public static final Item PLATINUM_SWORD = registerItem("platinum_sword", new SwordItem(ModToolMaterial.PLATINUM, 3, -2.4f, new FabricItemSettings()));
+    public static final Item PLATINUM_SHOVEL = registerItem("platinum_shovel", new ShovelItem(ModToolMaterial.PLATINUM, 1.5f, -3.0f, new FabricItemSettings()));
+    public static final Item PLATINUM_PICKAXE= registerItem("platinum_pickaxe", new PickaxeItem(ModToolMaterial.PLATINUM, 1, -2.8f, new FabricItemSettings()));
+    public static final Item PLATINUM_AXE = registerItem("platinum_axe", new AxeItem(ModToolMaterial.PLATINUM, 6.0f, -3.0f, new FabricItemSettings()));
+    public static final Item PLATINUM_HOE = registerItem("platinum_hoe", new HoeItem(ModToolMaterial.PLATINUM, 0, -3.0f, new FabricItemSettings()));
+    public static final Item PLATINUM_HELMET = registerItem("platinum_helmet", new ArmorItem(ModArmorMaterials.PLATINUM, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item PLATINUM_CHESTPLATE = registerItem("platinum_chestplate", new ArmorItem(ModArmorMaterials.PLATINUM, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item PLATINUM_LEGGINGS = registerItem("platinum_leggings", new ArmorItem(ModArmorMaterials.PLATINUM, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item PLATINUM_BOOTS = registerItem("platinum_boots", new ArmorItem(ModArmorMaterials.PLATINUM, ArmorItem.Type.BOOTS, new FabricItemSettings()));
     public static final Item JADE = registerItem("jade", new Item(new FabricItemSettings()));
     public static final Item JADE_SWORD = registerItem("jade_sword", new SwordItem(ModToolMaterial.JADE, 3, -2.4f, new FabricItemSettings()));
     public static final Item JADE_SHOVEL = registerItem("jade_shovel", new ShovelItem(ModToolMaterial.JADE, 1.5f, -3.0f, new FabricItemSettings()));

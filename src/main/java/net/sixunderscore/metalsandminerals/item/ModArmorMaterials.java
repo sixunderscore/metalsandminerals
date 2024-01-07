@@ -13,6 +13,7 @@ import java.util.function.Supplier;
 public enum ModArmorMaterials implements ArmorMaterial {
     RUBY("ruby", 20, new int[] { 2, 7, 5, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0, 0, () -> Ingredient.ofItems(ModItems.RUBY)),
     JADE("jade", 25, new int[] { 3, 8, 6, 3 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0, 0, () -> Ingredient.ofItems(ModItems.JADE)),
+    PLATINUM("platinum", 7, new int[] { 2, 5, 3, 1 }, 25, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0, 0, () -> Ingredient.ofItems(ModItems.PLATINUM_INGOT)),
     TIN("tin", 10, new int[] { 2, 5, 4, 1 }, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0, 0, () -> Ingredient.ofItems(ModItems.TIN_INGOT)),
     TOPAZ("topaz", 22, new int[] { 3, 7, 6, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0, 0, () -> Ingredient.ofItems(ModItems.TOPAZ)),
     PERIDOT("peridot", 25, new int[] { 3, 8, 6, 3 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0f, 0, () -> Ingredient.ofItems(ModItems.PERIDOT)),
