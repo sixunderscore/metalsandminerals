@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    " % ",
+    " % "
+  ],
+  "key": {
+    "#": {
+      "item": "metalsandminerals:citrine"
+    },
+    "%": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "metalsandminerals:citrine_pickaxe"
+  }
+}

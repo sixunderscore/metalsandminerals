@@ -17,6 +17,9 @@ public enum ModArmorMaterials implements ArmorMaterial {
     TIN("tin", 10, new int[] { 2, 5, 4, 1 }, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0, 0, () -> Ingredient.ofItems(ModItems.TIN_INGOT)),
     TOPAZ("topaz", 22, new int[] { 3, 7, 6, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0, 0, () -> Ingredient.ofItems(ModItems.TOPAZ)),
     PERIDOT("peridot", 25, new int[] { 3, 8, 6, 3 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0f, 0, () -> Ingredient.ofItems(ModItems.PERIDOT)),
+    SPINEL("spinel", 17, new int[] { 2, 7, 5, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0, 0, () -> Ingredient.ofItems(ModItems.SPINEL)),
+    CITRINE("citrine", 12, new int[] { 2, 5, 4, 2 }, 11, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0, 0, () -> Ingredient.ofItems(ModItems.CITRINE)),
+    AQUAMARINE("aquamarine", 22, new int[] { 2, 7, 5, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0, 0, () -> Ingredient.ofItems(ModItems.AQUAMARINE)),
     TITANIUM_REINFORCED_NETHERITE("titanium_reinforced_netherite", 38, new int[] { 3, 8, 6, 3 }, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3.5f, 0.1f, () -> Ingredient.ofItems(Items.NETHERITE_INGOT))
     ;
     private final String name;

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "metalsandminerals:spinel_block"
+    }
+  ],
+  "result": {
+    "item": "metalsandminerals:spinel",
+    "count": 9
+  }
+}

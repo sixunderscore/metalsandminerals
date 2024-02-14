@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "metalsandminerals:spinel"
+    }
+  },
+  "result": {
+    "item": "metalsandminerals:spinel_helmet"
+  }
+}

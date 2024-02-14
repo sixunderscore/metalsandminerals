@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "metalsandminerals:citrine_block"
+    }
+  ],
+  "result": {
+    "item": "metalsandminerals:citrine",
+    "count": 9
+  }
+}

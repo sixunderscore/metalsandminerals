@@ -37,6 +37,18 @@ public class ModArmorGroups {
                         entries.add(ModItems.PERIDOT_CHESTPLATE);
                         entries.add(ModItems.PERIDOT_LEGGINGS);
                         entries.add(ModItems.PERIDOT_BOOTS);
+                        entries.add(ModItems.SPINEL_HELMET);
+                        entries.add(ModItems.SPINEL_CHESTPLATE);
+                        entries.add(ModItems.SPINEL_LEGGINGS);
+                        entries.add(ModItems.SPINEL_BOOTS);
+                        entries.add(ModItems.CITRINE_HELMET);
+                        entries.add(ModItems.CITRINE_CHESTPLATE);
+                        entries.add(ModItems.CITRINE_LEGGINGS);
+                        entries.add(ModItems.CITRINE_BOOTS);
+                        entries.add(ModItems.AQUAMARINE_HELMET);
+                        entries.add(ModItems.AQUAMARINE_CHESTPLATE);
+                        entries.add(ModItems.AQUAMARINE_LEGGINGS);
+                        entries.add(ModItems.AQUAMARINE_BOOTS);
                         entries.add(ModItems.TITANIUM_REINFORCED_NETHERITE_HELMET);
                         entries.add(ModItems.TITANIUM_REINFORCED_NETHERITE_CHESTPLATE);
                         entries.add(ModItems.TITANIUM_REINFORCED_NETHERITE_LEGGINGS);

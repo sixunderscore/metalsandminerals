@@ -17,6 +17,9 @@ public class ModOreGeneration {
     public static final RegistryKey<PlacedFeature> TOPAZ_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier(MetalsAndMinerals.MOD_ID,"ore_topaz"));
     public static final RegistryKey<PlacedFeature> TITANIUM_DEPOSIT_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier(MetalsAndMinerals.MOD_ID,"deposit_titanium"));
     public static final RegistryKey<PlacedFeature> PERIDOT_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier(MetalsAndMinerals.MOD_ID,"ore_peridot"));
+    public static final RegistryKey<PlacedFeature> SPINEL_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier(MetalsAndMinerals.MOD_ID,"ore_spinel"));
+    public static final RegistryKey<PlacedFeature> CITRINE_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier(MetalsAndMinerals.MOD_ID,"ore_citrine"));
+    public static final RegistryKey<PlacedFeature> AQUAMARINE_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier(MetalsAndMinerals.MOD_ID,"ore_aquamarine"));
     public static void generateOres() {
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, RUBY_ORE_PLACED_KEY);
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, PLATINUM_ORE_PLACED_KEY);
@@ -25,5 +28,8 @@ public class ModOreGeneration {
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, TOPAZ_ORE_PLACED_KEY);
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, TITANIUM_DEPOSIT_PLACED_KEY);
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, PERIDOT_ORE_PLACED_KEY);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, SPINEL_ORE_PLACED_KEY);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, CITRINE_ORE_PLACED_KEY);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, AQUAMARINE_ORE_PLACED_KEY);
     }
 }

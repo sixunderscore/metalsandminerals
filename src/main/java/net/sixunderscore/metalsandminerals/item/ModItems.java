@@ -1,6 +1,7 @@
 package net.sixunderscore.metalsandminerals.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -8,6 +9,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.item.ToolMaterials;
 import net.minecraft.util.Rarity;
 import net.sixunderscore.metalsandminerals.MetalsAndMinerals;
+import net.sixunderscore.metalsandminerals.item.custom.ModTotemItem;
 
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
@@ -67,6 +69,7 @@ public class ModItems {
     public static final Item TOPAZ_BOOTS = registerItem("topaz_boots", new ArmorItem(ModArmorMaterials.TOPAZ, ArmorItem.Type.BOOTS, new FabricItemSettings()));
     public static final Item RAW_TITANIUM = registerItem("raw_titanium", new Item(new FabricItemSettings()));
     public static final Item TITANIUM_INGOT = registerItem("titanium_ingot", new Item(new FabricItemSettings()));
+    public static final Item TITANIUM_APPLE = registerItem("titanium_apple", new Item(new FabricItemSettings().rarity(Rarity.RARE).food(ModFoodComponents.TITANIUM_APPLE)));
     public static final Item TITANIUM_PLATE = registerItem("titanium_plate", new Item(new FabricItemSettings()));
     public static final Item TITANIUM_UPGRADE_SMITHING_TEMPLATE = registerItem("titanium_upgrade_smithing_template", ModSmithingTemplateItem.createTitaniumUpgrade());
     public static final Item PERIDOT = registerItem("peridot", new Item(new FabricItemSettings()));
@@ -79,6 +82,41 @@ public class ModItems {
     public static final Item PERIDOT_CHESTPLATE = registerItem("peridot_chestplate", new ArmorItem(ModArmorMaterials.PERIDOT, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item PERIDOT_LEGGINGS = registerItem("peridot_leggings", new ArmorItem(ModArmorMaterials.PERIDOT, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item PERIDOT_BOOTS = registerItem("peridot_boots", new ArmorItem(ModArmorMaterials.PERIDOT, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item SPINEL = registerItem("spinel", new Item(new FabricItemSettings()));
+    public static final Item SPINEL_SWORD = registerItem("spinel_sword", new SwordItem(ModToolMaterial.SPINEL, 3, -2.4f, new FabricItemSettings()));
+    public static final Item SPINEL_SHOVEL = registerItem("spinel_shovel", new ShovelItem(ModToolMaterial.SPINEL, 1.5f, -3.0f, new FabricItemSettings()));
+    public static final Item SPINEL_PICKAXE= registerItem("spinel_pickaxe", new PickaxeItem(ModToolMaterial.SPINEL, 1, -2.8f, new FabricItemSettings()));
+    public static final Item SPINEL_AXE = registerItem("spinel_axe", new AxeItem(ModToolMaterial.SPINEL, 5.7f, -3.0f, new FabricItemSettings()));
+    public static final Item SPINEL_HOE = registerItem("spinel_hoe", new HoeItem(ModToolMaterial.SPINEL, -2, -1.0f, new FabricItemSettings()));
+    public static final Item SPINEL_HELMET = registerItem("spinel_helmet", new ArmorItem(ModArmorMaterials.SPINEL, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item SPINEL_CHESTPLATE = registerItem("spinel_chestplate", new ArmorItem(ModArmorMaterials.SPINEL, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item SPINEL_LEGGINGS = registerItem("spinel_leggings", new ArmorItem(ModArmorMaterials.SPINEL, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item SPINEL_BOOTS = registerItem("spinel_boots", new ArmorItem(ModArmorMaterials.SPINEL, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item CITRINE = registerItem("citrine", new Item(new FabricItemSettings()));
+    public static final Item CITRINE_SWORD = registerItem("citrine_sword", new SwordItem(ModToolMaterial.CITRINE, 3, -2.4f, new FabricItemSettings()));
+    public static final Item CITRINE_SHOVEL = registerItem("citrine_shovel", new ShovelItem(ModToolMaterial.CITRINE, 1.5f, -3.0f, new FabricItemSettings()));
+    public static final Item CITRINE_PICKAXE= registerItem("citrine_pickaxe", new PickaxeItem(ModToolMaterial.CITRINE, 1, -2.8f, new FabricItemSettings()));
+    public static final Item CITRINE_AXE = registerItem("citrine_axe", new AxeItem(ModToolMaterial.CITRINE, 6.5f, -3.1f, new FabricItemSettings()));
+    public static final Item CITRINE_HOE = registerItem("citrine_hoe", new HoeItem(ModToolMaterial.CITRINE, -1, -2.0f, new FabricItemSettings()));
+    public static final Item CITRINE_HELMET = registerItem("citrine_helmet", new ArmorItem(ModArmorMaterials.CITRINE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item CITRINE_CHESTPLATE = registerItem("citrine_chestplate", new ArmorItem(ModArmorMaterials.CITRINE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item CITRINE_LEGGINGS = registerItem("citrine_leggings", new ArmorItem(ModArmorMaterials.CITRINE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item CITRINE_BOOTS = registerItem("citrine_boots", new ArmorItem(ModArmorMaterials.CITRINE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item AQUAMARINE = registerItem("aquamarine", new Item(new FabricItemSettings()));
+    public static final Item AQUAMARINE_SWORD = registerItem("aquamarine_sword", new SwordItem(ModToolMaterial.AQUAMARINE, 3, -2.4f, new FabricItemSettings()));
+    public static final Item AQUAMARINE_SHOVEL = registerItem("aquamarine_shovel", new ShovelItem(ModToolMaterial.AQUAMARINE, 1.5f, -3.0f, new FabricItemSettings()));
+    public static final Item AQUAMARINE_PICKAXE= registerItem("aquamarine_pickaxe", new PickaxeItem(ModToolMaterial.AQUAMARINE, 1, -2.8f, new FabricItemSettings()));
+    public static final Item AQUAMARINE_AXE = registerItem("aquamarine_axe", new AxeItem(ModToolMaterial.AQUAMARINE, 5.5f, -3.0f, new FabricItemSettings()));
+    public static final Item AQUAMARINE_HOE = registerItem("aquamarine_hoe", new HoeItem(ModToolMaterial.AQUAMARINE, -2, -1.0f, new FabricItemSettings()));
+    public static final Item AQUAMARINE_HELMET = registerItem("aquamarine_helmet", new ArmorItem(ModArmorMaterials.AQUAMARINE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item AQUAMARINE_CHESTPLATE = registerItem("aquamarine_chestplate", new ArmorItem(ModArmorMaterials.AQUAMARINE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item AQUAMARINE_LEGGINGS = registerItem("aquamarine_leggings", new ArmorItem(ModArmorMaterials.AQUAMARINE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item AQUAMARINE_BOOTS = registerItem("aquamarine_boots", new ArmorItem(ModArmorMaterials.AQUAMARINE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item EMPTY_TOTEM = registerItem("empty_totem", new Item(new FabricItemSettings()));
+    public static final Item JADE_TOTEM = registerItem("jade_totem", new ModTotemItem(StatusEffects.LUCK, 1, new FabricItemSettings().maxCount(1)));
+    public static final Item PLATINUM_TOTEM = registerItem("platinum_totem", new ModTotemItem(StatusEffects.SPEED, 0, new FabricItemSettings().maxCount(1)));
+    public static final Item TITANIUM_TOTEM = registerItem("titanium_totem", new ModTotemItem(StatusEffects.RESISTANCE, 0, new FabricItemSettings().maxCount(1)));
+    public static final Item AQUAMARINE_TOTEM = registerItem("aquamarine_totem", new ModTotemItem(StatusEffects.WATER_BREATHING, 0, new FabricItemSettings().maxCount(1)));
     public static final Item PLATINUM_UPGRADED_DIAMOND_SWORD = registerItem("platinum_upgraded_diamond_sword", new SwordItem(ToolMaterials.DIAMOND, 3, -2.1f, new FabricItemSettings()));
     public static final Item PLATINUM_UPGRADED_DIAMOND_AXE = registerItem("platinum_upgraded_diamond_axe", new AxeItem(ToolMaterials.DIAMOND, 5.0f, -2.7f, new FabricItemSettings()));
     public static final Item PLATINUM_UPGRADED_NETHERITE_SWORD = registerItem("platinum_upgraded_netherite_sword", new SwordItem(ToolMaterials.NETHERITE, 3, -2.1f, new FabricItemSettings()));
@@ -87,6 +125,7 @@ public class ModItems {
     public static final Item TITANIUM_REINFORCED_NETHERITE_CHESTPLATE = registerItem("titanium_reinforced_netherite_chestplate", new ArmorItem(ModArmorMaterials.TITANIUM_REINFORCED_NETHERITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item TITANIUM_REINFORCED_NETHERITE_LEGGINGS = registerItem("titanium_reinforced_netherite_leggings", new ArmorItem(ModArmorMaterials.TITANIUM_REINFORCED_NETHERITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item TITANIUM_REINFORCED_NETHERITE_BOOTS = registerItem("titanium_reinforced_netherite_boots", new ArmorItem(ModArmorMaterials.TITANIUM_REINFORCED_NETHERITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    
     public static void registerModItems() {
         MetalsAndMinerals.LOGGER.info("Registering mod items for " + MetalsAndMinerals.MOD_ID);
     }

@@ -41,6 +41,15 @@ public class ModBlockGroups {
                         entries.add(ModBlocks.PERIDOT_BLOCK);
                         entries.add(ModBlocks.PERIDOT_ORE);
                         entries.add(ModBlocks.DEEPSLATE_PERIDOT_ORE);
+                        entries.add(ModBlocks.SPINEL_BLOCK);
+                        entries.add(ModBlocks.SPINEL_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_SPINEL_ORE);
+                        entries.add(ModBlocks.CITRINE_BLOCK);
+                        entries.add(ModBlocks.CITRINE_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_CITRINE_ORE);
+                        entries.add(ModBlocks.AQUAMARINE_BLOCK);
+                        entries.add(ModBlocks.AQUAMARINE_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_AQUAMARINE_ORE);
                     }).build());
     public static void registerBlockGroups() {
         MetalsAndMinerals.LOGGER.info("Registering block groups for " + MetalsAndMinerals.MOD_ID);

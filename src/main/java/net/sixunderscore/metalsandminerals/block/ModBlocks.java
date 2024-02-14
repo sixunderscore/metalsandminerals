@@ -41,6 +41,16 @@ public class ModBlocks {
     public static final Block PERIDOT_BLOCK = registerBlock("peridot_block", new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
     public static final Block PERIDOT_ORE = registerBlock("peridot_ore", new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(2, 5)));
     public static final Block DEEPSLATE_PERIDOT_ORE = registerBlock("deepslate_peridot_ore", new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(4f), UniformIntProvider.create(2, 5)));
+    public static final Block SPINEL_BLOCK = registerBlock("spinel_block", new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
+    public static final Block SPINEL_ORE = registerBlock("spinel_ore", new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(2, 5)));
+    public static final Block DEEPSLATE_SPINEL_ORE = registerBlock("deepslate_spinel_ore", new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(4f), UniformIntProvider.create(2, 5)));
+    public static final Block CITRINE_BLOCK = registerBlock("citrine_block", new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
+    public static final Block CITRINE_ORE = registerBlock("citrine_ore", new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(2, 5)));
+    public static final Block DEEPSLATE_CITRINE_ORE = registerBlock("deepslate_citrine_ore", new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(4f), UniformIntProvider.create(2, 5)));
+    public static final Block AQUAMARINE_BLOCK = registerBlock("aquamarine_block", new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
+    public static final Block AQUAMARINE_ORE = registerBlock("aquamarine_ore", new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(2, 5)));
+    public static final Block DEEPSLATE_AQUAMARINE_ORE = registerBlock("deepslate_aquamarine_ore", new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(4f), UniformIntProvider.create(2, 5)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(MetalsAndMinerals.MOD_ID, name), block);

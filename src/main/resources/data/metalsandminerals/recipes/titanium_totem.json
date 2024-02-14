@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    "€%€"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:ghast_tear"
+    },
+    "%": {
+      "item": "metalsandminerals:empty_totem"
+    },
+    "€": {
+      "item": "metalsandminerals:titanium_block"
+    }
+  },
+  "result": {
+    "item": "metalsandminerals:titanium_totem"
+  }
+}

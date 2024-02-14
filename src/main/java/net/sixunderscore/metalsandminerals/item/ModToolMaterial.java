@@ -12,7 +12,10 @@ public enum ModToolMaterial implements ToolMaterial {
     PLATINUM(MiningLevels.WOOD, 45, 13.0f, 0.0f, 22, () -> Ingredient.ofItems(ModItems.PLATINUM_INGOT)),
     TIN(MiningLevels.STONE, 180, 5.0f, 1.5f, 7, () -> Ingredient.ofItems(ModItems.TIN_INGOT)),
     TOPAZ(MiningLevels.IRON, 580, 7.5f, 2.7f, 13, () -> Ingredient.ofItems(ModItems.TOPAZ)),
-    PERIDOT(MiningLevels.DIAMOND, 800, 8.0f, 3.0f, 15, () -> Ingredient.ofItems(ModItems.PERIDOT))
+    PERIDOT(MiningLevels.DIAMOND, 800, 8.0f, 3.0f, 15, () -> Ingredient.ofItems(ModItems.PERIDOT)),
+    SPINEL(MiningLevels.IRON, 480, 6.5f, 2.3f, 12, () -> Ingredient.ofItems(ModItems.SPINEL)),
+    CITRINE(MiningLevels.STONE, 200, 5.5f, 1.7f, 9, () -> Ingredient.ofItems(ModItems.CITRINE)),
+    AQUAMARINE(MiningLevels.IRON, 530, 7.0f, 2.5f, 13, () -> Ingredient.ofItems(ModItems.AQUAMARINE))
     ;
     private final int mininglevel;
     private final int itemDurability;

@@ -1,0 +1,28 @@
+{
+  "feature": "metalsandminerals:ore_citrine",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 9
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 55
+        },
+        "min_inclusive": {
+          "absolute": -15
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
+

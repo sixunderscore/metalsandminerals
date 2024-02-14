@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "metalsandminerals:aquamarine"
+    }
+  },
+  "result": {
+    "item": "metalsandminerals:aquamarine_block"
+  }
+}

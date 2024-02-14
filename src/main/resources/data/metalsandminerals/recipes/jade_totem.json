@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    "€%€"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:ghast_tear"
+    },
+    "%": {
+      "item": "metalsandminerals:empty_totem"
+    },
+    "€": {
+      "item": "metalsandminerals:jade_block"
+    }
+  },
+  "result": {
+    "item": "metalsandminerals:jade_totem"
+  }
+}

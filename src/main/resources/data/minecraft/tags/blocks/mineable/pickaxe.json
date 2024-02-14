@@ -27,6 +27,15 @@
     "metalsandminerals:titanium_trapdoor",
     "metalsandminerals:peridot_block",
     "metalsandminerals:peridot_ore",
-    "metalsandminerals:deepslate_peridot_ore"
+    "metalsandminerals:deepslate_peridot_ore",
+    "metalsandminerals:spinel_block",
+    "metalsandminerals:spinel_ore",
+    "metalsandminerals:deepslate_spinel_ore",
+    "metalsandminerals:citrine_block",
+    "metalsandminerals:citrine_ore",
+    "metalsandminerals:deepslate_citrine_ore",
+    "metalsandminerals:aquamarine_block",
+    "metalsandminerals:aquamarine_ore",
+    "metalsandminerals:deepslate_aquamarine_ore"
   ]
 }

@@ -25,9 +25,18 @@ public class ModItemGroups {
                         entries.add(ModItems.TOPAZ);
                         entries.add(ModItems.RAW_TITANIUM);
                         entries.add(ModItems.TITANIUM_INGOT);
+                        entries.add(ModItems.TITANIUM_APPLE);
                         entries.add(ModItems.TITANIUM_PLATE);
                         entries.add(ModItems.TITANIUM_UPGRADE_SMITHING_TEMPLATE);
                         entries.add(ModItems.PERIDOT);
+                        entries.add(ModItems.SPINEL);
+                        entries.add(ModItems.CITRINE);
+                        entries.add(ModItems.AQUAMARINE);
+                        entries.add(ModItems.EMPTY_TOTEM);
+                        entries.add(ModItems.JADE_TOTEM);
+                        entries.add(ModItems.PLATINUM_TOTEM);
+                        entries.add(ModItems.TITANIUM_TOTEM);
+                        entries.add(ModItems.AQUAMARINE_TOTEM);
                     }).build());
     public static void  registerItemGroups() {
         MetalsAndMinerals.LOGGER.info("Registering item groups for " + MetalsAndMinerals.MOD_ID);
