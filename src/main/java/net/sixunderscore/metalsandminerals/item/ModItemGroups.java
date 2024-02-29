@@ -38,7 +38,7 @@ public class ModItemGroups {
                         entries.add(ModItems.TITANIUM_TOTEM);
                         entries.add(ModItems.AQUAMARINE_TOTEM);
                     }).build());
-    public static void  registerItemGroups() {
+    public static void registerItemGroups() {
         MetalsAndMinerals.LOGGER.info("Registering item groups for " + MetalsAndMinerals.MOD_ID);
     }
 }
